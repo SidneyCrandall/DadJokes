@@ -1,0 +1,59 @@
+main {
+    height: 300px;
+    width: 850px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset rgb(168, 145, 145) 20px;
+}
+
+body {
+    background-color: rgb(171, 171, 173);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(49, 23, 61);
+    text-decoration: underline;
+}
+
+.post__id {
+    color: aliceblue;
+}
+
+.footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+button {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
